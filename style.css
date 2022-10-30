@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+.container-1{
+    
+    height: 100vh;
+       
+    background-color: indigo;
+    width: 100vw;
+}
+.calculator{
+    background-color: black;
+    height: 650px;
+    width: 380px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    border-radius: 35px;
+}
+.display-1{
+    text-align: right;
+    padding-right: 20px;
+    height: 20%;
+    color: white;
+}
+#history{
+    font-size: 23px;
+    padding-top: 20px;
+    
+}
+#current{
+    font-size: 55px;
+    color: rgb(75, 215, 15);
+    font-weight: bold;
+    background-color: black;
+    text-align: right;
+    width: 100%;
+    outline: 0;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    border: none;
+}
+#keyboard{
+    height: 80%;
+   
+
+}
+.baton{
+    float: left;
+    height: 75%;
+    width: 21%;
+    color: black;
+    font-size: 30px;
+    margin-top: 16px;
+    margin-left: 14px;
+    
+    border-radius: 50%;
+}
+
+.excep-0{
+    width: 45%;
+    height: 75%;
+    border-radius: 55px
+}
+.st-3{
+    background-color: #A8A8A8;
+
+}
+.num{
+    background-color: #333333;
+    color: white;
+}
+.side-col{
+    background-color: #FE9620;
+    color: white;
+}
+.side-col:hover{
+    background-color: #df9439;
+}
+.baton:active{
+    background-color: antiquewhite;
+    color: darkslategray;
+}
