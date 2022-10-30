@@ -39,7 +39,7 @@ function answer(){
     let b=eval(a);
     document.getElementById("current").value=b;
     if (a==""){
-        document.getElementById("current").value="";
+        document.getElementById("current").value="0";
     }
     n=n+1;
     

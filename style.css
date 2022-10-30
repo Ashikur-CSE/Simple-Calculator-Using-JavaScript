@@ -17,11 +17,11 @@ body{
 }
 .calculator{
     background-color: black;
-    height: 650px;
-    width: 380px;
+    height: 550px;
+    width: 320px;
     margin: 0 auto;
     position: relative;
-    top: 100px;
+    top: 50px;
     border-radius: 35px;
 }
 .display-1{
@@ -30,20 +30,16 @@ body{
     height: 20%;
     color: white;
 }
-#history{
-    font-size: 23px;
-    padding-top: 20px;
-    
-}
+
 #current{
-    font-size: 55px;
-    color: rgb(75, 215, 15);
+    font-size: 50px;
+    color: white;
     font-weight: bold;
     background-color: black;
     text-align: right;
     width: 100%;
     outline: 0;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     margin-top: 50px;
     border: none;
 }
@@ -54,8 +50,8 @@ body{
 }
 .baton{
     float: left;
-    height: 75%;
-    width: 21%;
+    height: 67%;
+    width: 20%;
     color: black;
     font-size: 30px;
     margin-top: 16px;
